@@ -1,7 +1,7 @@
 # BPMN2ALLOY
 **BPMN2ALLOY tool for BPMN**
 
-`BPMN2ALLOY` supports the verification of business processes (workflows and collaborations) properti
+`BPMN2ALLOY` supports the verification of business processes (Processes and collaborations) properties
 
 - Simple Termination
 - Correct termination completion
