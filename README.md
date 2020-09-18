@@ -1,6 +1,7 @@
 # BPMN2ALLOY
 **BPMN2ALLOY tool for BPMN**
 
+![EXAMPLE.](Claim.pdf)
 
 **Verification Properties**
 
