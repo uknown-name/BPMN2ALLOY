@@ -1,0 +1,231 @@
+example1_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  OS _ ARCH = 'Linux' - 'amd64'
+Found = 'amd64-linux
+Found native lib 'jar:file:/home/queinnec/TeX/Projets/Pardi-ANR2016/BPMN/fbpmn-private/theories/alloy/org.alloytools.alloy.dist.jar!/amd64-linux/libglucose41.so'
+No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 5 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 5 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 3 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 13):
+  No counterexample found. Assertion may be valid, as expected.
+example2_check.als
+  command Check check$1 for 0 but 20 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 20 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 20 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 15 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 11 State expect 1 (line 13):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 15):
+  No counterexample found. Assertion may be valid, as expected.
+example3_check.als
+  command Check check$1 for 0 but 15 State expect 0 (line 12):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 20 State expect 1 (line 14):
+  Counterexample found. Assertion is invalid, as expected.
+  command Check check$3 for 0 but 20 State expect 1 (line 15):
+  Counterexample found. Assertion is invalid, as expected.
+  command Run run$4 for 0 but 11 State expect 1 (line 17):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 1 (line 20):
+  Counterexample found. Assertion is invalid, as expected.
+example_STRT_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 9 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 9 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 11 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 13):
+  No counterexample found. Assertion may be valid, as expected.
+example_TCMIE_check.als
+  command Check check$1 for 0 but 15 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 7 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 7 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 12 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 13):
+  No counterexample found. Assertion may be valid, as expected.
+example_MSE_MEE_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 10 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 10 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$4 for 0 but 10 State expect 0 (line 10):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$5 for 0 but 10 State expect 1 (line 12):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 14):
+  No counterexample found. Assertion may be valid, as expected.
+example_MSE_ST_check.als
+  command Check check$1 for 0 but 15 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 10 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 10 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 11 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 13):
+  No counterexample found. Assertion may be valid, as expected.
+example_TICE_check.als
+  command Check check$1 for 0 but 7 int, 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 9 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 9 State expect 0 (line 10):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 8 State expect 1 (line 12):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 14):
+  No counterexample found. Assertion may be valid, as expected.
+example_EB_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 14 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 14 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$4 for 0 but 14 State expect 1 (line 11):
+  Counterexample found. Assertion is invalid, as expected.
+  command Run run$5 for 0 but 10 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 10 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$7 for 0 but 9 State expect 1 (line 18):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$8 for 0 but 9 State expect 1 (line 19):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$9 for 0 but 6 int, 20 State expect 1 (line 21):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 23):
+  No counterexample found. Assertion may be valid, as expected.
+example_MBE_AT_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 8 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 8 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 5 int, 16 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 5 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 7 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 17):
+  No counterexample found. Assertion may be valid, as expected.
+example_MBEI_SP_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 15 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 15 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 5 int, 16 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 9 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 11 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$7 for 0 but 6 int, 20 State expect 1 (line 17):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 19):
+  No counterexample found. Assertion may be valid, as expected.
+example_MBENI_SP_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 15 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 15 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 5 int, 16 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 9 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 10 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$7 for 0 but 14 State expect 1 (line 17):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 19):
+  No counterexample found. Assertion may be valid, as expected.
+example_TBEI_AT_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 9 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 9 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 5 int, 16 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 5 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 9 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$7 for 0 but 6 int, 20 State expect 1 (line 17):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 19):
+  No counterexample found. Assertion may be valid, as expected.
+example_TBENI_AT_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 15 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 15 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 5 int, 16 State expect 1 (line 11):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 5 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 12 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$7 for 0 but 14 State expect 1 (line 17):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 19):
+  No counterexample found. Assertion may be valid, as expected.
+example_TBEI_SP_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 15 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 15 State expect 0 (line 9):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 9 State expect 1 (line 12):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 11 State expect 1 (line 13):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 6 int, 20 State expect 1 (line 15):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 17):
+  No counterexample found. Assertion may be valid, as expected.
+example_TBENI_SP_check.als
+  command Check check$1 for 0 but 10 State expect 0 (line 6):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$2 for 0 but 15 State expect 0 (line 7):
+  No counterexample found. Assertion may be valid, as expected.
+  command Check check$3 for 0 but 15 State expect 0 (line 8):
+  No counterexample found. Assertion may be valid, as expected.
+  command Run run$4 for 0 but 5 int, 16 State expect 1 (line 10):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$5 for 0 but 7 State expect 1 (line 13):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$6 for 0 but 9 State expect 1 (line 14):
+  Instance found. Predicate is consistent, as expected.
+  command Run run$7 for 0 but 14 State expect 1 (line 16):
+  Instance found. Predicate is consistent, as expected.
+  command Check WellFormed for 1 expect 0 (line 18):
+  No counterexample found. Assertion may be valid, as expected.

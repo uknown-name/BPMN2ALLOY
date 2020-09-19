@@ -1,0 +1,20 @@
+#!/bin/sh
+# Vérifie que les noms des examples correspondent au nom de leur fichier
+# Vérifie que les modules check importent les bons fichiers
+
+ALLSRC=`ls -1 example*.als |grep -v _check`
+ALLCHK=`ls -1 example*.als |grep _check`
+
+for f in ${ALLSRC}; do
+    mname=`grep module "$f" | sed -e 's/module //'`
+    if [ "$mname" != `basename "$f" .als` ]; then
+	echo "Inconsistent module name: $f"
+    fi
+done
+
+for f in ${ALLCHK}; do
+    mname=`grep 'open.*as' "$f" | sed -e 's/open \(.*\) as m/\1/'`
+    if [ "$mname" != `basename "$f" _check.als` ]; then
+	echo "Inconsistent import name: $f"
+    fi
+done
