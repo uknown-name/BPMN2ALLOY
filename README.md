@@ -12,7 +12,7 @@
 - safety
 - soundness
 
-**New properties and communication semantics can be easily taken into account** (see Sect, *Extending the verification*).
+**New properties can be easily taken into account** (see Sect, *Extending the verification*).
 
 ### Semi-automatic tool
 
